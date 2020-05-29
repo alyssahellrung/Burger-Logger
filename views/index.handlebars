@@ -1,21 +1,28 @@
 <h1>Burger Logger</h1>
 
-{{!-- <h2>Burgers that have not been devoured!</h2> --}}
-
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{!-- {{> burgers/cat-block sleep=true}} --}}
+     <li>
+	    {{burger_name}}
+
+	    <button class="change-devoured" data-id="{{id}}">
+        Devour It!
+	    </button>
+    </li>
+
     {{/unless}}
   {{/each}}
 </ul>
 
-{{!-- <h2>Burgers that have been devoured!</h2> --}}
 
-<ul>
+<h2>Devoured Burgers</h2>
+<ul class="movetoright">
   {{#each burgers}}
     {{#if devoured}}
-      {{!-- {{> burger/cat-block sleep=false}} --}}
+     <li>
+	  {{burger_name}}
+    </li>
     {{/if}}
   {{/each}}
 </ul>
@@ -28,7 +35,6 @@
     <input type="text" id="bu" name="name">
   </div>
 
-  
 
   <button type="submit">Add Burger</button>
 </form>

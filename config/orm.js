@@ -76,10 +76,5 @@ var orm = {
   }
 };
 
-// selectAllBurgers();
-
-// insertOne();
-
-// updateOne();
 
 module.exports = orm;
