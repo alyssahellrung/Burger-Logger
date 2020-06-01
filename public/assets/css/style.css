@@ -1,3 +1,31 @@
+.everything {
+  background-color: #DAC0EB;
+}
+
+h1, h3, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.i {
+  height: 200px;
+  width: 200px;
+}
+
+.change-devoured {
+  float: right;
+}
+
+#add {
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -11,7 +39,6 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
