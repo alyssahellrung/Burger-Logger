@@ -48,7 +48,7 @@ Navigate to https://infinite-savannah-02998.herokuapp.com/. You will see two lis
 
 When you've eaten a burger, or if you just want to see a burger move from the left to the right, click that burger's "Devour It!" button and watch the magic happen!  
 
-![image]https://media.giphy.com/media/kfM94ojq0kuJxNIzt3/giphy.gif
+![image](https://media.giphy.com/media/kfM94ojq0kuJxNIzt3/giphy.gif)
 
 ## How I Made This  
 Using MVC principles, the functionality for this app was spread out into multiple small files. Building this from scratch allowed me to understand how the front and back end connect internally and to each other, how to use models, how to use a homemade ORM, and how to use handlebars. This was also the first time I deployed to Heroku with a database.
